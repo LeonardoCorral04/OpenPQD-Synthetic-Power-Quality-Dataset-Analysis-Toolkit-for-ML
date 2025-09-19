@@ -59,7 +59,7 @@ These signals are complex waveforms created by combining two or more individual 
 * **Unified Parameter Framework**: A core feature of the analysis is the `unify_data` function, which transforms diverse disturbance parameters into a consistent set (`disturbance_magnitude`, `disturbance_duration`) for direct comparison.
 * **Advanced Visualizations**:
     * **Correlation Heatmaps**: To analyze the statistical independence of generated parameters.
-    * **3D & 2D t-SNE Plots**: To visualize the separability of disturbance classes in a reduced-dimensional space. The global analysis plot uses distinct markers (`●` for individual, `■` for mixed) to highlight group clustering.
+    * **3D t-SNE Plots**: To visualize the separability of disturbance classes in a reduced-dimensional space. The global analysis plot uses distinct markers (`●` for individual, `■` for mixed) to highlight group clustering.
 
 ##  Methodological Approach
 
