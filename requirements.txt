@@ -1,0 +1,9 @@
+Python libraries:
+
+numpy
+pandas
+h5py
+seaborn
+matplotlib
+scipy
+scikit-learn
