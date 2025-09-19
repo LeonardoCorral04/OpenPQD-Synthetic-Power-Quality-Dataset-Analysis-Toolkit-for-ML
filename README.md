@@ -31,13 +31,14 @@ These are single, isolated power quality events:
 
 #### Mixed Disturbances (20 Classes)
 These signals are complex waveforms created by combining two or more individual disturbances, providing a challenging dataset for advanced classification tasks:
+
 12. Harmonics with Sag (M1)
 13. Harmonics with Swell (M2)
 14. Flicker with Sag (M3)
-15. Flicker with Swell (M4) 
-16. Sag with Oscillatory Transient (M5) 
+15. Flicker with Swell (M4)
+16. Sag with Oscillatory Transient (M5)
 17. Swell with Oscillatory Transient (M6)
-18. Sag with harmonics (M7) 
+18. Sag with harmonics (M7)
 19. Swell with harmonics (M8)
 20. Harmonics with sag with flicker (M9)
 21. Harmonics with swell with flicker (M10)
@@ -51,6 +52,8 @@ These signals are complex waveforms created by combining two or more individual 
 29. Harmonics with swell with flicker with Oscillatory Transient (M18)
 30. Sag with harmonics with flicker with oscillatory transient (M19)
 31. Swell with harmonics with flicker with oscillatory transient (M20)
+
+
 
 ## ✨ Key Features
 
