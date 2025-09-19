@@ -1,2 +1,17 @@
-Here are the folders
+Here are the folders: 
+https://colab.research.google.com/drive/1okT1d60XYcJH3FIyx5wY_Hw81tvWtBIp?usp=sharing; 
+https://drive.google.com/drive/folders/1PNlTOCmlzvOl-GGJs63Xw_3ufdyT2GCV?usp=sharing
+
+This file serves as a direct pointer to the full OpenPQD dataset.
+
+  The complete dataset, which includes 31 HDF5 files (.h5), is too large to be stored directly within this Git repository. Storing large data files in Git is   inefficient and often restricted by platform limits.
+  
+  To ensure easy access, the dataset is hosted on an external service (Google Drive). This download_dataset.txt file contains the single, public, and direct URL needed to access and download the data.
+  
+  Instructions for Use:
+  1. Get the Link: Open the download_dataset.txt file and copy the URL inside.
+  
+  2. Download: Paste the URL into your web browser. This will take you to the public Google Drive folder named PQD_Synthetic_Dataset.
+  
+  3. Save: Download the entire folder. For seamless use with the provided Colab notebooks, it's recommended to save this folder to the root of your personal Google Drive (MyDrive). The notebooks are pre-configured to look for the data at the path: /content/drive/MyDrive/PQD_Synthetic_Dataset/.
   
