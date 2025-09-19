@@ -1,0 +1,2 @@
+# OpenPQD-Synthetic-Power-Quality-Dataset-Analysis-Toolkit-for-ML
+An open-source dataset of synthetic power quality disturbances (PQD), ideal for training and validating machine learning models. Signals are generated using established mathematical models from scientific literature, with parameter ranges conforming to the IEEE 1159 standard. Includes a Python analysis framework for statistical exploration.
