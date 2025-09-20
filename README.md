@@ -1,5 +1,5 @@
 # OpenPQD-Synthetic-Power-Quality-Dataset-Analysis-Toolkit-for-ML
-An open-source dataset of synthetic power quality disturbances (PQD), ideal for training and validating machine learning models. Signals are generated using established mathematical models from scientific literature, with parameter ranges conforming to the IEEE 1159 standard. Includes a Python analysis framework for statistical exploration.
+An open-source dataset of synthetic power quality disturbances (PQD), ideal for training and validating machine learning models in electrical single-phase analysis. Signals are generated using established mathematical models from scientific literature, with parameter ranges conforming to the IEEE 1159 standard. Includes a Python analysis framework for statistical exploration.
 
 # OpenPQD: Synthetic Power Quality Dataset & Analysis Toolkit for ML
 
@@ -60,7 +60,8 @@ These signals are complex waveforms created by combining two or more individual 
 * **IEEE 1159 Compliant**: Disturbance parameters are randomized within standard-compliant ranges.
 * **Modular Analysis**: The Jupyter Notebook is structured into independent **Global**, **Individual**, and **Mixed** analysis sections, which can be run without dependencies on each other.
 * **Unified Parameter Framework**: A core feature of the analysis is the `unify_data` function, which transforms diverse disturbance parameters into a consistent set (`disturbance_magnitude`, `disturbance_duration`) for direct comparison.
-* **Advanced Visualizations**:
+* ** Visualizations**:
+    * **Plotting of signals**: As a didactic tool to study disturbances and validate the signals' modeling.
     * **Correlation Heatmaps**: To analyze the statistical independence of generated parameters.
     * **3D t-SNE Plots**: To visualize the separability of disturbance classes in a reduced-dimensional space. The global analysis plot uses distinct markers (`●` for individual, `■` for mixed) to highlight group clustering.
 
@@ -110,8 +111,8 @@ All analysis code is in `analysis_notebook/PQD_Analysis.ipynb`. It is designed t
 * **Citation**: If you use this dataset or framework in your research, please cite it using the following BibTeX entry. You will need to replace the URL and commit hash with your repository's specific details.
 
     ```bibtex
-    @misc{CorralTrigueros2025,
-      author = {Corral Trigueros, Leonardo},
+    @misc{ITLPCUCEI2025,
+      author = {Corral-Trigueros, Leonardo and Barocio-Espejo, Emilio},
       title = {OpenPQD: Synthetic Power Quality Dataset & Analysis Toolkit for ML},
       year = {2025},
       publisher = {GitHub},
