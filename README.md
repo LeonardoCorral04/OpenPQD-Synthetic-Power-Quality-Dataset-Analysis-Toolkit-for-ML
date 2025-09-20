@@ -5,7 +5,7 @@ An open-source dataset of synthetic power quality disturbances (PQD), ideal for 
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-This repository provides a comprehensive, open-source dataset of 31 types of synthetic power quality disturbances (PQD), ideal for training and validating machine learning models. Signals are generated using established mathematical models, with parameter ranges conforming to the **IEEE 1159 standard**.
+This repository provides a comprehensive, open-source dataset of 31 types of synthetic power quality disturbances (PQD), ideal for training and validating machine learning models with representative obtained due to Direct Montecarlo Simulation. Signals are generated using established mathematical models, with parameter ranges conforming to the **IEEE 1159 standard**.
 
 The project includes a modular Python analysis framework in a Jupyter Notebook for advanced statistical exploration, featuring correlation analysis and t-SNE visualizations to assess class separability.
 
@@ -78,13 +78,12 @@ A unique aspect of this framework is the handling of duration for steady-state d
 ├── 🐍 requirements.txt
 │
 ├── 📂 dataset/
-│   └── 🔗 download_dataset.txt  (Link to the full HDF5 dataset on Google Drive)
+│   └── 🔗 download_dataset.txt (Link to the full HDF5 dataset on Google Drive)
+│   └──📜 README.txt
 │
 ├── 📂 analysis_notebook/
-│   └── 📊 PQD_Analysis.ipynb      (The complete, modular Jupyter Notebook)
-│
-└── 📂 results_preview/
-    └── (A sample of generated plots for a quick overview)
+│   └── 📊 PQD_DATASET_GENERATOR.ipynb (The complete, modular Jupyter Notebook)
+
 ```
 
 ## 🚀 Getting Started
@@ -96,7 +95,7 @@ This project requires Python 3 and the libraries listed in the `requirements.txt
 The full dataset is hosted externally to keep the repository lightweight. The public download link is available in `dataset/download_dataset.txt`. Please download the `PQD_Synthetic_Dataset` folder and place it in a location accessible by the notebook (e.g., the root of your Google Drive).
 
 ### 3. Run the Analysis
-All analysis code is in `analysis_notebook/PQD_Analysis.ipynb`. It is designed to be run in an environment like Google Colab.
+All analysis code is in `analysis_notebook/PQD_DATASET_GENERATOR.ipynb`. It is designed to be run in an environment like Google Colab.
 
 1.  **Run Section 1 (Master Setup & Core Functions)**: Execute the first two blocks (`Block 1: Master Configuration` and `Block 2: Master Functions`) once per session. This will load all configurations and define the necessary functions.
 2.  **Choose Your Analysis**: Go to **Section 2 (Analysis Execution)** and run **only one** of the three execution blocks based on your needs:
@@ -106,7 +105,7 @@ All analysis code is in `analysis_notebook/PQD_Analysis.ipynb`. It is designed t
 
 ## ✍️ Author & Citation
 
-* **Author**: Leonardo Corral Trigueros
+* **Author**: Leonardo Corral Trigueros, Emilio Barocio Espejo. 
 
 * **Citation**: If you use this dataset or framework in your research, please cite it using the following BibTeX entry. You will need to replace the URL and commit hash with your repository's specific details.
 
@@ -118,7 +117,7 @@ All analysis code is in `analysis_notebook/PQD_Analysis.ipynb`. It is designed t
       publisher = {GitHub},
       journal = {GitHub repository},
       howpublished = {\url{[[https://github.com/YOUR_USERNAME/YOUR_REPO_NAME](https://github.com/LeonardoCorral04/OpenPQD-Synthetic-Power-Quality-Dataset-Analysis-Toolkit-for-ML)]([https://github.com/YOUR_USERNAME/YOUR_REPO_NAME](https://github.com/LeonardoCorral04/OpenPQD-Synthetic-Power-Quality-Dataset-Analysis-Toolkit-for-ML))}},
-      commit = {c8f9cecf3169aa8e7dffb3c6bc4e10cc7a111826}
+      commit = {0f00e019bdd2cdbc463c4fb5f5df09a2349b92d1}
     }
     ```
 
