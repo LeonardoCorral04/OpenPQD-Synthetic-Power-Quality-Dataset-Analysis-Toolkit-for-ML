@@ -5,9 +5,14 @@ An open-source dataset of synthetic power quality disturbances (PQD), ideal for 
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-This repository provides a comprehensive, open-source dataset of 31 types of synthetic power quality disturbances (PQD), ideal for training and validating machine learning models with representative obtained due to Direct Montecarlo Simulation. Signals are generated using established mathematical models, with parameter ranges conforming to the **IEEE 1159 standard**.
+This repository provides a comprehensive, open-source dataset of 31 types of synthetic power quality disturbances (PQD), ideal for training and validating machine learning models with representative obtained due to Direct Montecarlo Simulation. Signals are generated using established mathematical models, with parameter ranges conforming to the **IEEE 1159 standard**. 29 classes are from Universidad de Zaragoza's work, (Igual, 2017). 
 
 The project includes a modular Python analysis framework in a Jupyter Notebook for advanced statistical exploration, featuring correlation analysis and t-SNE visualizations to assess class separability.
+
+Bibliography:
+R. Igual, “Mathematical model of power quality disturbances,” 2017. [Online]. Available: https://data.mendeley.com/datasets/6kmkk9bjdx/1
+R. Igual, C. Medrano, F. J. Arcega, and G. Mantescu, “Integral mathematical model of power quality disturbances,” in 2018 18th International Conference on Harmonics and Quality of Power (ICHQP), 2018, pp. 1–6.
+
 
 ## 📚 Dataset Overview
 
@@ -60,14 +65,14 @@ These signals are complex waveforms created by combining two or more individual 
 * **IEEE 1159 Compliant**: Disturbance parameters are randomized within standard-compliant ranges.
 * **Modular Analysis**: The Jupyter Notebook is structured into independent **Global**, **Individual**, and **Mixed** analysis sections, which can be run without dependencies on each other.
 * **Unified Parameter Framework**: A core feature of the analysis is the `unify_data` function, which transforms diverse disturbance parameters into a consistent set (`disturbance_magnitude`, `disturbance_duration`) for direct comparison.
-* ** Visualizations**:
+* **Visualizations**:
     * **Plotting of signals**: As a didactic tool to study disturbances and validate the signals' modeling.
     * **Correlation Heatmaps**: To analyze the statistical independence of generated parameters.
     * **3D t-SNE Plots**: To visualize the separability of disturbance classes in a reduced-dimensional space. The global analysis plot uses distinct markers (`●` for individual, `■` for mixed) to highlight group clustering.
 
 ##  Methodological Approach
 
-A unique aspect of this framework is the handling of duration for steady-state disturbances (like Harmonics, Flicker). Since these events don't have a natural "duration," we use other probabilistically independent parameters as proxies (`flicker_frequency`, `mean of harmonic_phases`, etc.). This innovative approach allows for consistent six-parameter analysis across all signal types, which is particularly useful for testing the Monte Carlo simulation via the correlation matrix.
+A unique aspect of this framework is the handling of duration for steady-state disturbances (like Harmonics, Flicker). Since these events don't have a natural "duration," we use other probabilistically independent parameters as proxies (`flicker_frequency`, `mean of harmonic_phases`, etc.). This approach allows for consistent six-parameter analysis across all signal types, which is particularly useful for testing the Montecarlo simulation via the correlation matrix.
 
 ## 📂 Repository Structure
 
