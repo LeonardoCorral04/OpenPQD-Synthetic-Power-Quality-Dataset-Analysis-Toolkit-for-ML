@@ -10,8 +10,8 @@ This repository provides a comprehensive, open-source dataset of 31 types of syn
 The project includes a modular Python analysis framework in a Jupyter Notebook for advanced statistical exploration, featuring correlation analysis and t-SNE visualizations to assess class separability.
 
 Bibliography:
-R. Igual, “Mathematical model of power quality disturbances,” 2017. [Online]. Available: https://data.mendeley.com/datasets/6kmkk9bjdx/1
-R. Igual, C. Medrano, F. J. Arcega, and G. Mantescu, “Integral mathematical model of power quality disturbances,” in 2018 18th International Conference on Harmonics and Quality of Power (ICHQP), 2018, pp. 1–6.
+* R. Igual, “Mathematical model of power quality disturbances,” 2017. [Online]. Available: https://data.mendeley.com/datasets/6kmkk9bjdx/1
+* R. Igual, C. Medrano, F. J. Arcega, and G. Mantescu, “Integral mathematical model of power quality disturbances,” in 2018 18th International Conference on Harmonics and Quality of Power (ICHQP), 2018, pp. 1–6.
 
 
 ## 📚 Dataset Overview
