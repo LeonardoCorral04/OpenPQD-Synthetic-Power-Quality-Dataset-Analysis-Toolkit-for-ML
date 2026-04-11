@@ -1,13 +1,13 @@
 # OpenPQD-Synthetic-Power-Quality-Dataset-Analysis-Toolkit-for-ML
-An open-source dataset of synthetic power quality disturbances (PQD), ideal for training and validating machine learning models in electrical single-phase analysis. Signals are generated using established mathematical models from scientific literature, with parameter ranges conforming to the IEEE 1159 standard. Includes a Python analysis framework for statistical exploration.
+An open-source dataset famework for generating synthetic power quality disturbances (PQD) designed for Colab environment. Signals are generated using numerical mathematical models from scientific literature, with parameter ranges conforming to the IEEE 1159 standard. Includes a Python analysis framework for statistical exploration, we check if we get the desired descriptive statistics based on our probability assumptions of the parameters when we program the disturbance.
 
 # OpenPQD: Synthetic Power Quality Dataset & Analysis Toolkit for ML
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-This repository provides a comprehensive, open-source dataset of 31 types of synthetic power quality disturbances (PQD), ideal for training and validating machine learning models with representative obtained due to Direct Montecarlo Simulation. Signals are generated using established mathematical models, with parameter ranges conforming to the **IEEE 1159 standard**. 29 classes are from Universidad de Zaragoza's work, (Igual, 2017). 
+This repository provides a comprehensive, open-source dataset of 31 types of synthetic power quality disturbances (PQD), ideal for balance datasets with real and simulated data in order to training and validating machine learning models. Signals are generated using established mathematical models programmed through static monte carlo simulation to get diverse and general datasets, with parameter ranges conforming to the **IEEE 1159 standard**. 29 classes are from Universidad de Zaragoza's work, (Igual, 2017). 
 
-The project includes a modular Python analysis framework in a Jupyter Notebook for advanced statistical exploration, featuring correlation analysis and t-SNE visualizations to assess class separability.
+The project includes a modular Python analysis framework in a Jupyter Notebook for statistical exploration, featuring correlation analysis and t-SNE visualizations to assess class separability.
 
 Bibliography:
 * R. Igual, “Mathematical model of power quality disturbances,” 2017. [Online]. Available: https://data.mendeley.com/datasets/6kmkk9bjdx/1
@@ -94,7 +94,7 @@ A unique aspect of this framework is the handling of duration for steady-state d
 ## 🚀 Getting Started
 
 ### 1. Prerequisites
-This project requires Python 3 and the libraries listed in the `requirements.txt` file.
+The project was designed to be replicated in every computer with internet to upload this Colab environment. In general, This project requires Python 3 and the libraries listed in the `requirements.txt` file.
 
 ### 2. Download the Dataset
 The full dataset is hosted externally to keep the repository lightweight. The public download link is available in `dataset/download_dataset.txt`. Please download the `PQD_Synthetic_Dataset` folder and place it in a location accessible by the notebook (e.g., the root of your Google Drive).
